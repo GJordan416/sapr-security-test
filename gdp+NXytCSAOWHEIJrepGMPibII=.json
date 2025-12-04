@@ -1,0 +1,102 @@
+{
+    "pluginStatus": true,
+    "isPaid": true,
+    "communityName": "MissionOaksRBLX",
+    "betaCommunity": true,
+    "features": {
+        "inGameInterface": true,
+        "rangeSimulation": true,
+        "emergencyHotline": true
+    },
+    "talkAroundRange": 1500,
+    "betaServerGroups": [""],
+    "dispatchServerGroups": ["257", "266"],
+    "dispatchAdvancedServerGroups": ["257", "266"],
+    "dispatchNameTags": [
+        "(P)",
+        "(S)",
+        "(T)",
+        "(FIRE)",
+        "(QA)",
+        "(EVAL)",
+        "(911)",
+        "[P]",
+        "[S]",
+        "[T]",
+        "[FIRE]",
+        "[QA]",
+        "[EVAL]",
+        "[911]"
+    ],
+    "civilianServerGroups": [""],
+    "civChannels": [0],
+    "radioSystems": [12820, 289, 297],
+    "rtoChannels": [12821, 12822, 301],
+    "radioChannels": [
+        {
+            "id": 1,
+            "name": "Dispatch - Primary",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=blue]Dispatch - Primary[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 2,
+            "name": "Dispatch - Secondary",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=blue]Dispatch - Secondary[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        }
+    ],
+    "time_settings": {
+        "emergencyOverridePeriod": 10,
+        "emergencyCooldown": 30,
+        "emergencyOtherCooldown": 20,
+        "dispatchToneCooldown": 15,
+        "radioStunCooldown": 5,
+        "radioPingCooldown": 10,
+        "911Cooldown": 30,
+        "commandStunPeriod": 300,
+        "toneWaitTalkPeriod": 5
+    },
+    "permissions": {
+        "permBasic": {
+            "serverGroupList": ["245", "246"],
+            "clientUidList": [""]
+        },
+        "permExtra": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permSit": {
+            "serverGroupList": ["247"],
+            "clientUidList": [""]
+        },
+        "permStaff": {
+            "serverGroupList": ["248"],
+            "clientUidList": [""]
+        },
+        "permSenior": {
+            "serverGroupList": ["249"],
+            "clientUidList": [""]
+        },
+        "permAdmin": {
+            "serverGroupList": ["250", "251"],
+            "clientUidList": [""]
+        },
+        "permSuper": {
+            "serverGroupList": ["252"],
+            "clientUidList": [""]
+        }
+    }
+}
